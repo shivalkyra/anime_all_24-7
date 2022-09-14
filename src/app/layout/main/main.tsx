@@ -1,16 +1,15 @@
-import { Header } from "~/app/layout/header/header";
 import { Footer } from "~/app/layout/footer/footer";
+import { Header } from "~/app/layout/header/header";
 
-export function Main(){
+export function Main() {
   return (
     <div>
       <Header />
       {/*Header*/}
       <section className="container mx-auto shadow h-full">
-       Website dau tien cua toi
       </section>
       {/*Footer*/}
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }

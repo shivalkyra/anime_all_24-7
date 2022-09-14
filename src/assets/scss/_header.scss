@@ -1,0 +1,8 @@
+.menu {
+  & li {
+    @apply font-semibold;
+    &:hover {
+      @apply text-purple;
+    }
+  }
+}
